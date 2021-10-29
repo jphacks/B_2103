@@ -66,6 +66,12 @@ app.post("/register", async(req, res)=>{
             })
             return
         }
+        if(/ugoiita/g.test(user)){
+            res.status(400).json({
+                reason: "ugoiitaを含むユーザー名は利用できません。"
+            })
+            return
+        }
         if(!/^(?=.?[a-z])(?=.?[A-Z])(?=.*?\d)[a-zA-Z\d]{6,100}$/.test(password)){
             res.status(400).json({
                 reason: "パスワードが条件を満たしていません。"
