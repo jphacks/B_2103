@@ -1,6 +1,6 @@
 # ugoiita-code
 
-[![ugoiita-code](https://user-images.githubusercontent.com/33394165/139466463-1f3c6f63-97a9-4df0-99e9-2298c42c6430.png)]()
+[![ugoiita-code](https://user-images.githubusercontent.com/33394165/139466791-dfdfd9ce-3f7d-4cf2-845f-ade223e62fa7.png)]()
 
 ## 製品概要
 ### 背景(製品開発のきっかけ、課題等）
