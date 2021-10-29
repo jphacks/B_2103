@@ -9,7 +9,7 @@ function showLatestReport(){
         let date = new Date(parseInt(ugoita.json.time) * 1000)
         $(".ugoiita-day").append(`<span>${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日に動いた報告があります</span>`);
     }else{
-        $(".ugoiita-report").append("<a>0</a>")
+        $(".ugoiita-report").append(`<a class="ugoiita-count">0</a>`)
         $(".ugoiita-day").append("<span>まだ、動いた報告がありません</span>");
     }
 }
