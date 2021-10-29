@@ -32,6 +32,7 @@ $(()=>{
                 $('.login-blunder').fadeOut(1)
                 $('.login-success').fadeIn(5)
             }else{
+                $(".failed-msg").html(res.reason)
                 $('.login-blunder').fadeIn(5)
             }
         })
@@ -53,6 +54,7 @@ $(()=>{
                 $('.register-success').fadeIn(5)
             }
             else{
+                $(".failed-msg").html(res.reason)
                 $('.register-blunder').fadeIn(5)
             }
         })
