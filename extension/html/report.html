@@ -1,0 +1,51 @@
+<div class="ugoiita-report-form">
+    <section class="report-area">
+        <div class="report-title">
+            <p>動いた報告</p>
+        </div>
+        <hr size="1" width="95%">
+        <div class="report-body">
+            <form id="ugoiita-report-form">
+                <section class="section">
+                    <p class="title">動作環境</p >
+                    <p class="section-title">OS</p>
+                    <select name="OS">
+                        <option value="Mac OS X">Mac OS X</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Ubuntu">Ubuntu</option>
+                        <option value="その他">その他</option>
+                    </select>
+                    <p class="version">バージョン</p>
+                    <input type="text" name="OS-version" value="" placeholder="半角で入力(例3.7.1)">
+                </section>
+
+                <section class="section">
+                    <label class="section-title">仮想環境：</label>
+                    <input type="checkbox" name="Virtual-environment-checkbox" id="Virtual-environment-checkbox">
+                    <div class="Virtual-environment-input">
+                        <select id="Virtual-environment">
+                            <option value="venv">venv</option>
+                            <option value="pyenv">pyenv</option>
+                            <option value="virtualenv">virtualenv</option>
+                            <option value="Docker">Docker</option>
+                            <option value="その他">その他</option>
+                        </select>
+                        <p class="version">バージョン</p>
+                        <input type="text" name="Virtual-environment-version" value="" placeholder="半角で入力(例3.7.1)">
+                    </div>
+                </section>
+
+                <section class="section">
+                    <p class="section-title">プログラミング言語</p >
+                    <input type="text" name="language-name" autocomplete="on" list="dt1">
+                    <datalist id="dt1"></datalist>  
+                    <p class="version">バージョン</p> 
+                    <input type="text" name="language-version" value="" placeholder="半角で入力(例3.7.1)">
+                </section>
+            </form>
+        </div>
+        <div class="report-submit">
+            <button class="report-submit-btn">送信</button>
+        </div>
+    </section>
+</div>

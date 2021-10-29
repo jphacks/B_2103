@@ -1,0 +1,125 @@
+.css-8w2a1m{
+    display: flex;
+    width: 100%;
+}
+.ugoiita-day span{
+    border-bottom: 1px solid #aed581;
+}
+.ugoiita-div{
+    width: 50%;
+}
+.ugoiita-name{
+    display: flex;
+}
+.ugoiita-name img{
+    height: 24px;
+    width: auto;
+    margin-right: 3px;
+    border-radius: 100%;
+}
+.ugoiita-report{
+    width: 40px;
+    height: 57px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #55C500;
+}
+.ugoiita-report img{
+    height: 40px;
+    width: auto;
+    border-radius: 100%;
+}
+.ugoiita-report-btn{
+    cursor: pointer;
+}
+.ugoiita-report-form{
+    outline: 2px solid #55C500;
+    border-radius: 10px;
+    display: none;
+    color: black;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 200px;
+    height: 405px;
+    z-index: 100;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Virtual-environment-input {
+    margin-top: 5px;
+}
+
+.report-title {
+    font-size: 200%;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.report-submit {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.section{
+    margin: 10px;
+}
+
+.Virtual-environment-input{ 
+    display: none;
+}
+
+input:checked ~ .Virtual-environment-input{
+    display: block;
+}
+
+.report-submit-btn {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 13pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 7px 15px 7px 15px;   /* 余白       */
+    background    : #55c500;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 2px 2px 5px #666666;  /* 影の設定 */
+    border        : 2px solid #55c500;    /* 枠の指定 */
+}
+.report-submit-btn:active {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #55c500;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+@media (max-width: 753px){
+    .ugoiita-div{
+        width: 100%;
+    }    
+}
+
+.ugoiita-report-form input[type=text]{
+    width: 160px;
+}
+
+.OS-checkbox,.Virtual-environment-checkbox{
+    display: block;
+}

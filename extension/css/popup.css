@@ -1,0 +1,55 @@
+*{
+    user-select: none;
+}
+
+body {
+    width: 225px;
+    height: 130px;
+    margin: 0;
+}
+
+.top{
+    width: auto;
+    background-color:#aed581;
+    padding-bottom: 0.5em;
+}
+
+.top img{
+    position: absolute;
+    width: 12.5%;
+    top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.top-title{
+    font-size: 25px;
+    margin-left: 17.5%;
+}
+
+.latest-p1{
+    margin:5px 0 5px 5px;
+    font-size: 20px;
+}
+
+.latest-p2{
+    margin:5px 0 5px 5px;
+    font-size: 15px;
+}
+
+.environment-p1{
+    margin:15px 0 5px 5px;
+    font-size: 20px;
+}
+
+.environment-see{
+    width: 70%;
+    background-color: rgb(168, 168, 168);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.environment-see-p1{
+    margin:15px 0 5px 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+input{
+    user-select: all;
+    margin-left: 30%;
+}
+body{
+    background: white;
+}
+header,.login-success-top-title{
+    display: flex;
+    background-color: #aed581;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 5px;
+}
+.login-form{
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+    margin: 0 auto;
+    margin-top: 20vmin;
+    width: 400px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    border-radius: 10px;
+}
+.switching{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.switching div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 100%;
+    width: 50%;
+    border: black solid 1px;
+}
+.form{
+
+}
+.register{
+    display: none;
+}
+
+.top-icon{
+    width: 4em;
+    margin-left: 7%;
+  
+}
+.top-title{
+    font-size: 3em;
+    margin-left: 1em;
+
+}
+.login-title{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.register-title{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+.login-username,.login-password,.register-username,.register-Email,.register-password{
+    margin-left: 30%;
+    font-size: 130%;
+}
+.password-list{
+    margin-left: 30%;
+}
+.login-password-div{
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+.register-Email-div{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.account-create,.register-login-button{
+    margin-left: 15%; 
+    margin-right: 20%;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-create-a,.register-login-button-a{
+    color: #1a73e8;
+    font-size: 13px;
+}
+.account-create:hover,.register-login-button:hover{
+    color: #1865ca;
+    background-color: #eef4fc;
+    border-radius: 4px;
+}
+.account-create:active,.register-login-button:active{
+    background-color: #c1dcfc;
+    border-radius: 4px;
+}
+.login-button{
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1a73e8;
+    border: 1px solid #333;
+}
+.register-button{
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1a73e8;
+    border: 1px solid #333;
+}
+.login-button:hover,.register-button:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);  
+    background-color: #1768d3;
+}
+.login-button:active,.register-button:active{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);  
+    background-color: #155cb9;
+}
+.screen-size{
+    width: 100%;
+    height: 650px;
+}
+.login-under-menu{
+    display: flex;
+    margin-top: 32%;
+}
+.register-under-menu{
+    display: flex;
+    margin-top: 16%;
+}
+.textbox{
+    padding: 1% 0;
+}
+.login-success{
+    display: none;
+}
+
+.login-success-title,.register-success-title{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+}
+.login-blunder{
+    display: none;
+}
+.login-error{
+    color: rgb(222, 69, 60);
+    text-align: center;
+    position: absolute;
+    left: 22%;
+    top:70%;
+}
+.register-blunder{
+    display: none;
+}
+.register-error{
+    color: rgb(222, 69, 60);
+    text-align: center;
+    position: absolute;
+    left: 11%;
+    top:77%;
+}
+.register-success{
+    display: none;
+}
+.check{
+    text-align: center;
+    color:#aed581;
+    font-size: 6em;
+    margin-top: 120px;
+    margin-left: 40%;
+}

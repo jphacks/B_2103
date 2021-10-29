@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ugoiita-code Login</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/functions.js"></script>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="screen-size"></div>
+    <main>
+        <div class="login-form">
+            <div class="form login">
+                <form class="loginForm">
+                    <header>
+                        <img class="top-icon" src="../img/icon.png">
+                        <p class="top-title">ugoiita-code</p>
+                    </header>
+                    <hr>
+                    <section class="login-page">
+                        <h2 class="login-title">ログイン</h2>
+                        <label class="login-username">Email :</label><br>
+                        <input class="textbox login-email" name="email" type="text"><br>
+                        <div class="login-password-div">
+                            <label class="login-password">password :</label><br>
+                            <input class="textbox" name="password" type="password"><br>
+                        </div>
+
+                        <div class="login-under-menu">
+                            <div class="account-create">
+                                  <a class="account-create-a">アカウントを作成</a>
+                            </div>
+                            <div>
+                                <button class="login-button">ログイン</button>
+                            </div>
+                        </div>
+                    </section>
+                </form>
+            </div>
+            <div class="form register">
+                <form class="registerForm">
+                    <h2 class="register-title">登録</h2>
+                    <label class="register-username">Username(6文字以上) :</label>
+                    <input class="textbox" name="user" type="text"><br>
+                    <div class="register-Email-div">
+                        <label class="register-Email">Email :</label>
+                        <input class="textbox" name="email" type="email"><br>
+                    </div>
+                    <label class="register-password">password :</label>
+                    <input class="textbox" name="password" type="password"><br> 
+                    <p class="password-list">・6文字以上</p>
+                    <p class="password-list">・英大文字、英小文字が一種類以上</p>
+                    <p class="password-list">・半角数字が一種類以上</p>
+                    <div class="register-under-menu">
+                        <div class="register-login-button">
+                            <a class="register-login-button-a">代わりにログイン</a>
+                        </div>
+                        <div>
+                            <button class="register-button">登録</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <section class="login-success">
+                <div>
+                    <i class="fas fa-check-circle check"></i>
+                    <h1 class="login-success-title">ログイン完了</h1>
+                </div>
+            </section>
+            <section class="login-blunder">
+                <p class="login-error"><i class="fas fa-info-circle"></i> Emailまたはpasswordが正しくありません。<br>入力し直してください。</p>
+            </section>
+            <section class="register-success">
+                <div>
+                    <i class="fas fa-check-circle check"></i>
+                    <h1 class="register-success-title">登録完了</h1>
+                </div>
+            </section>
+            <section class="register-blunder">
+                <p class="register-error"><i class="fas fa-info-circle"></i> UsernameまたはEmail、passwordが正しくありません。<br>入力し直してください。</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
